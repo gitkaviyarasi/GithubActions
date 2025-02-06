@@ -33,7 +33,7 @@ describe('Quiz Component', () => {
 
   it('should restart the quiz after completion', () => {
     cy.mount(<Quiz />);
-    cy.get('button').contains('Start1 Quiz').click();
+    cy.get('button').contains('Start Quiz').click();
 
     // Answer questions
     cy.get('button').contains('1').click();
