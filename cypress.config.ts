@@ -13,7 +13,7 @@ export default defineConfig({
 
   e2e: {
     //baseUrl: 'http://localhost:3001',
-    baseUrl: 'https://githubactions-cicd.onrender.com/',
+    baseUrl: 'https://githubactions-20l7.onrender.com/',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
